@@ -44,5 +44,5 @@ jobs:
         working-directory: SpeedTestServer
 
       - name: Run Server
-        run: node index.js
+        run: node src/index.js
         working-directory: SpeedTestServer
