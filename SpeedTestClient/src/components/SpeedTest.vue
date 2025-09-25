@@ -3,7 +3,7 @@
     <button :disabled="running" @click="runTest">
       {{ running ? 'Testing…' : 'Run Speed Test' }}
     </button>
-    <div v-if="running">Running test — this may take up to several minutes...</div>
+    <div v-if="running">Running test — This may take up to several minutes...</div>
     <div v-if="speedMbps">Download: {{ speedMbps }}</div>
     <div v-if="error" class="error">{{ error }}</div>
   </div>
