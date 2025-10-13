@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "fast-speedtest-api": "^0.3.2"
+    "express": "^5.1.0"
   }
 }
